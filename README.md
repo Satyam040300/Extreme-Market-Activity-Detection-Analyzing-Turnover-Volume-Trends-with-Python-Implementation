@@ -34,7 +34,7 @@ This project analyzes stock market data since 2000 to detect extreme market acti
 
 ## Output
 
-Satyam filtered extreme turnover stock days after 2000 (1).ipynb: Contains stock-days flagged as extreme turnover events.
+filtered_turnover_stock_days.csv: Contains stock-days flagged as extreme turnover events.
 
 Visualization: Abnormal turnover histogram with ±3 standard deviation markers.
 
