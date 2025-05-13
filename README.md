@@ -46,9 +46,9 @@ This project analyzes stock market data since 2000 to detect extreme market acti
 
 ## Output
 
-filtered_stock_days2000.csv : Contains stock-days flagged as extreme turnover events for Methodology 1
+filtered_stock_days2000.csv : Contains stock-days flagged as extreme turnover events for Methodology 1.
 
-filtered_turnover_stock_days.csv: Contains stock-days flagged as extreme turnover events.
+filtered_turnover_stock_days.csv: Contains stock-days flagged as extreme turnover events for Methodology 2.
 
 Visualization: Abnormal turnover histogram with ±3 standard deviation markers.
 
