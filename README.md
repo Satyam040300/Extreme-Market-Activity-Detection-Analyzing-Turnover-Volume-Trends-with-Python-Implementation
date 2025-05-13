@@ -7,7 +7,19 @@ This project analyzes stock market data since 2000 to detect extreme market acti
 - **WRDS CRSP Daily Stock File (dsf)**: Includes daily stock prices and trading volume.
 - **WRDS CRSP Daily Shares Outstanding (dse)**: Provides shares outstanding for each stock.
 
-## Methodology
+## Methodology 1
+
+##  Objective
+
+- Connect to WRDS and query CRSP daily stock data (from 2000 onward).
+- Calculate daily **dollar volume** = price × volume.
+- Adjust dollar volume using **inflation factors** (e.g., CPI base year = 2013).
+- Identify stock-days where:
+  - Inflation-adjusted dollar volume > $100M.
+  - Volume is >10x the **5-day trailing average**.
+  - Volume is >10x the **next day's volume**.
+
+## Methodology 2
 
 ### Data Extraction
 - Query daily stock price, volume, and shares outstanding from WRDS.
