@@ -1,7 +1,7 @@
 # Extreme Market Activity Detection
 
 ## Overview
-## Part 1 
+## Methodology 1 
 This project analyzes daily trading activity from the CRSP (Center for Research in Security Prices) database to detect unusually high dollar volume spikes in U.S. stocks. By leveraging WRDS (Wharton Research Data Services), the script retrieves data from 2000 onward, calculates dollar volume, adjusts it for inflation (relative to a base CPI year, such as 2013), and applies filters to flag days where trading volume is:
 
 Significantly higher than the stock’s recent 5-day average, and
@@ -10,7 +10,7 @@ Much larger than the next trading day's volume.
 
 The result is a dataset of potential market anomalies, liquidity events, or news-driven spikes. This analysis is useful for researchers, analysts, and quantitative finance practitioners interested in market microstructure, event studies, or liquidity modeling.
 
-## Part 2
+## Methodology 2
 This project analyzes stock market data since 2000 to detect extreme market activity by examining average turnover (volume per shares outstanding). The goal is to identify liquidity shocks and trading anomalies using Python and WRDS CRSP data.
 
 ## Data Sources
